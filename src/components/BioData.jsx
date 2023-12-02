@@ -7,7 +7,7 @@ function BioData() {
       <div className="font-satoshi underline text-base text-red-700">
         Bio Data: Wuraola Ademola
       </div>
-      <Button text="See more" />
+      <Button color="bg-blue-500" text="See more" />
     </div>
   );
 }

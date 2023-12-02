@@ -1,5 +1,6 @@
 import React from "react";
 import Button from "./Button";
+import Input from "./Input";
 
 export const Hobbies = () => {
   return (
@@ -8,6 +9,14 @@ export const Hobbies = () => {
         Hobbies: Coding, PLaying Violin, Reading
       </div>
       <Button text="Coming Soon" />
+
+      <Input
+        type="email"
+        placeholder="enter your email address"
+        label="Email"
+      />
+      <Input label="First name" />
+      <Input label=" password" type="password" />
     </div>
   );
 };
